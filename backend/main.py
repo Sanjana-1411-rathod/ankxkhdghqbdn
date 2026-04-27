@@ -17,7 +17,7 @@ from src.document_processor import DocumentProcessor
 from src.vector_store import VectorStore
 from src.llm import LLMHandler
 
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 VECTOR_STORE_PATH = "vector_store.pkl"
 DATA_DIR = "data"
 
